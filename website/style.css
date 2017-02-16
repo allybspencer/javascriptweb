@@ -1,0 +1,66 @@
+body {
+    background-image: url("milkyway.png");
+    background-size: cover;
+}
+table {
+    font-family: monospace;
+    color: white;
+    border-color: purple;
+    border: 2px solid purple;
+    border-collapse: collapse;
+    
+}
+th:nth-child(even) {
+    color: blue;
+}
+th {
+    color: orange;
+    font-weight: bold;
+    border: 2px solid purple;
+}
+th:first-of-type {
+    background-color: purple;
+}
+tr, td {
+    border: 2px solid purple;
+}
+td:hover {
+    background-color: blue;
+}
+h1 {
+    font-family: monospace;
+    color: yellow;
+    vertical-align: middle;
+}
+p {
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+a {
+    font-family: monospace;
+    color: yellow;
+}
+a:visited {
+    color: blue;
+}
+img {
+    display: block;
+    width: 400px;
+    bottom: 700px;
+    right: 400px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+    
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+@keyframes spin {
+    
+}
+span {
+    font-size: 0;
+}
